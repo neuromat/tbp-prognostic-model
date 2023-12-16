@@ -1,0 +1,307 @@
+{
+    "equInjTbpiAgeClasY_v1" : {
+        "name": {"en" : "Age","pt-br" : "Idade"}, 
+        "description" :  {"pt-br" : "Idade em que sofreu a lesão de plexo braquial", "en": "Age at which the brachial plexus injury was suffered"}, 
+        "values" : {
+            ">=60" : {"name" : {"en" :  "≥ 60 years", "pt-br" :  "≥ 60 anos"},
+                      "description" : {"pt-br" : "Com 60 anos ou mais", "en": "60 years old or older"}},
+            "50_59" : {"name" : {"en" : "[50,59] years", "pt-br" :  "[50,59] anos"},
+                       "description" : {"pt-br" : "Entre 50 e 59 anos", "en": "Between 50 and 59 years old"}},
+            "40_49" : {"name" : {"en" : "[40,49] years", "pt-br" :  "[40,49] anos"},
+                       "description" : {"pt-br" : "Entre 40 e 49 anos", "en": "Between 40 and 49 years old"}},
+            "30_39" : {"name" : {"en" : "[30,39] years", "pt-br" :  "[30,39] anos"},
+                       "description" : {"pt-br" : "Entre 30 e 39 anos", "en": "Between 30 and 39 years old"}},
+            "20_29" : {"name" : {"en" : "[20,29] years", "pt-br" :  "[20,29] anos"},
+                       "description" : {"pt-br" : "Entre 20 e 29 anos", "en": "Between 20 and 29 years old"}},
+            "<20" : {"name" : {"en" : "< 20 years", "pt-br" :  "< 20 anos"},
+                     "description" : {"pt-br" : "Menos do que 20 anos", "en": "Less than 20 years"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabida a idade", "en": "Age is not known"}}
+        }
+    },
+    "lstInjTpbiSide" : {
+        "name": {"en" : "Lesion Side","pt-br" : "Lado"}, 
+        "description" : {"pt-br" : "Lado da lesão do plexo de braquial", "en": "Brachial plexus injury side"},
+        "values" : {
+            "R" : {"name" : {"en" : "Right", "pt-br" :  "Direito"},
+                   "description" : {"pt-br" : "Lado direito", "en": "Right side"}},
+            "L" : {"name" : {"en" : "Left", "pt-br" :  "Esquerdo"},
+                   "description" : {"pt-br" : "Lado esquerdo", "en": "Left side"}},
+            "RL" : {"name" : {"en" : "Both", "pt-br" :  "Bilateral"},
+                    "description" : {"pt-br" : "Bilateral", "en": "Both sides"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido o lado", "en": "The side is not known"}}
+        }
+    },
+    "mulPexDiagnosis_v1" : {
+        "name": {"en" : "Diagnosis","pt-br" : "Diagnóstico"}, 
+        "description" : {"pt-br" : "Diagnóstico da lesão do plexo braquial", "en": "Diagnosis of brachial plexus injury"},
+        "values" : {
+            "COMPLETE" : {"name" : {"en" : "Complete", "pt-br" : "Completa"},
+                          "description" : {"pt-br" : "Lesão Completa", "en": "Complete Injury"}},
+            "UPPER" : {"name" : {"en" : "Upper", "pt-br" :  "Superior"},
+                       "description" : {"pt-br" : "Lesão de Tronco Superior", "en": "Upper Trunk Injury"}},
+            "EXTENDED" : {"name" : {"en" : "Extended", "pt-br" :  "Estendida"},
+                         "description" : {"pt-br" : "Lesão de Tronco Superior Estendido", "en": "Extended Upper Trunk Injury"}},
+            "LOWER" : {"name" : {"en" : "Lower", "pt-br" :  "Inferior"},
+                       "description" : {"pt-br" : "Lesão de Tronco Inferior", "en": "Lower Trunk Injury"}},
+            "INFRA" : {"name" : {"en" : "Infraclavicular", "pt-br" :  "Infraclavicular"},
+                       "description" : {"pt-br" : "Lesão Infraclavicular", "en": "Infraclavicular injury"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido o diagnóstico", "en": "The diagnosis is not known"}}
+        }
+    },
+    "mulInjTbpiCauseSide[Motorcycle]_v1" : {
+        "name": {"en" : "Motorcycle","pt-br" : "Motocicleta"}, 
+        "description" : {"pt-br" : "Se a lesão do plexo braquial foi causada por acidente de motocicleta", "en": "Whether the brachial plexus injury was caused by a motorcycle accident"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Foi causada por motocicleta", "en": "Injury caused by motorcycle"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não foi causada por motocicleta", "en": "Injury not caused by motorcycle"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se foi causada por motocicleta", "en": "It is not known if injury was caused by motorcycle"}}
+        }
+    },
+    "lstInjSkuBra_v2" : {
+        "name": {"en" : "Cranioencephalic","pt-br" : "Cranioencefálico"}, 
+        "description" : {"pt-br" : "Se houve traumatismo de crânio e/ou encéfalo por ocasião da lesão de plexo braquial", "en": "Whether there was trauma to the head and/or brain at the time of the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Houve traumatismo de crânio e/ou encéfalo", "en": "There was trauma to the skull and/or brain"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não houve traumatismo de crânio e/ou encéfalo", "en": "There was no trauma to the skull and/or brain"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se houve traumatismo de crânio e/ou encéfalo", "en": "It is not known if there was trauma to the head and/or brain"}}
+        }
+    },
+    "lstInjUppLimScaGirSide_v2" : {
+        "name": {"en" : "Upper Limb","pt-br" : "Membro Superior"}, 
+        "description" : {"pt-br" : "Se houve lesão de membro superior e/ou de cintura escapular do mesmo lado da lesão de plexo braquial", "en": "If there was an upper limb and/or shoulder girdle injury on the same side as the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Houve lesão de membro superior e/ou de cintura escapular", "en": "There was an injury to the upper limb and/or shoulder girdle"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não houve lesão de membro superior e/ou de cintura escapular", "en": "There was no injury to the upper limb and/or shoulder girdle"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se houve lesão de membro superior e/ou de cintura escapular", "en": "It is not known whether there was an upper limb and/or shoulder girdle injury."}}
+        }
+    },
+    "yonPexPainTime1_v2" : {
+        "name": {"en" : "Pain_0_6","pt-br" : "Dor_0_6"}, 
+        "description" : {"pt-br" : "Se houve relato de dor entre 0 a 6 (incluído) meses após a lesão de plexo braquial", "en": "If pain was reported between 0 and 6 (included) months after the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Houve relato de dor", "en": "There was a report of pain"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não houve relato de dor", "en": "There was no report of pain"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se houve relato de dor", "en": "It is not known if there was any report of pain"}}
+        }
+    },
+    "yonPexPainTime2_v2" : {
+        "name": {"en" : "Pain_6_12","pt-br" : "Dor_6_12"}, 
+        "description" : {"pt-br" : "Se houve relato de dor entre 6 a 12 (incluído) meses após a lesão de plexo braquial", "en": "If pain was reported between 6 and 12 (included) months after the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Houve relato de dor"}, "en": "There was a report of pain"},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não houve relato de dor", "en": "There was no report of pain"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se houve relato de dor", "en": "It is not known if there was any report of pain"}}
+        }
+    },
+    "yonInjPhysio" : {
+        "name": {"en" : "Physiotherapy","pt-br" : "Fisioterapia"}, 
+        "description" : {"pt-br" : "Se fisioterapia foi realizada entre os meses 0 e 12 (incluído) após a lesão do plexo braquial", "en": "Whether physiotherapy was performed between months 0 and 12 (included) after the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Foi realizada fisioterapia" , "en": "Physiotherapy was performed"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não foi realizada fisioterapia", "en": "Physiotherapy was not performed"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se foi realizada fisioterapia", "en": "It is not known whether physiotherapy was performed"}}
+        }
+    },
+    "yonInjOrthesisSide_v2" : {
+        "name": {"en" : "Orthosis","pt-br" : "Órtese"}, 
+        "description" : {"pt-br" : "Se órtese do lado da lesão foi utilizada entre os meses 0 e 12 (incluído) após a lesão do plexo braquial", "en": "Whether orthosis on injured side was used between 0 and 12 months (included) after brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Foi utilizada órtese", "en": "Orthosis was used"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não foi utilizada órtese", "en": "Orthosis was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se foi utilizada órtese", "en": "It is not known whether orthesis was used"}}
+        }
+    },
+    "Bpsurgery_yon_type" : {
+        "name": {"en" : "Surgery","pt-br" : "Cirurgia"}, 
+        "description" : {"pt-br" : "Qual o tipo de cirurgia foi realizado nos primeiros 12 meses após a lesão de plexo braquial", "en": "What type of surgery was performed in the first 12 months after the brachial plexus injury"},
+        "values" : {
+            "TRANSF_OTHERS" : {"name" : {"en" : "Transfer and other", "pt-br" : "Transferência e outra"},
+                                    "description" : {"pt-br" : "A cirurgia realizada foi do seguinte tipo: transferência e outra (neurólise, enxertia ou ressecção de neuroma)", "en": "The surgery performed was of the following type: transfer and other (neurolysis, grafting or neuroma resection)"}},
+            "TRANSF_ONLY" : {"name" : {"en" : "Only transfer", "pt-br" : "Transferência apenas"},
+                               "description" : {"pt-br" : "A cirurgia realizada foi do seguinte tipo: transferência", "en": "The surgery performed was of the following type: transfer"}},
+            "OTHERS_ONLY" : {"name" : {"en" : "Only other", "pt-br" : "Outra apenas"},
+                            "description" : {"pt-br" : "A cirurgia realizada foi do seguinte tipo: outra (neurólise, enxertia ou ressecção de neuroma)", "en": "The surgery performed was of the following type: other (neurolysis, grafting or resection of neuroma)"}},                   
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                            "description" : {"pt-br" : "Não foi feita cirurgia", "en": "No surgery was done"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido o tipo de cirurgia realizada, ou se foi feita cirurgia", "en": "It is not known what type of surgery was performed, or whether surgery was performed"}}
+        }
+    },
+    "Status_Explor_v1" : {
+        "name": {"en" : "Exploration","pt-br" : "Exploração"}, 
+        "description" : {"pt-br" : "Se foi realizada exploração cirúrgica nos primeiros 12 meses após a lesão de plexo braquial", "en": "Whether surgical exploration was performed within the first 12 months after the brachial plexus injury"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Foi feita exploração", "en": "Exploration was done"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não  foi feita exploração", "en": "Exploration was not done"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se foi feita exploração, ou se foi feita cirurgia", "en": "It is not known whether exploration was performed, or whether surgery was performed"}}
+        }
+    },
+    "Bpsurgery_time_v2" : {
+        "name": {"en" : "Surgery time","pt-br" : "Momento da cirurgia"}, 
+        "description" : {"pt-br" : "Momento em que foi realizada a primeira cirurgia para plexo braquial", "en": "Time when the first brachial plexus surgery was performed"},
+        "values" : {
+            "_6M" : {"name" : {"en" : "≤ 6 months", "pt-br" : "≤ 6 meses"},
+                     "description" : {"pt-br" : "Entre 0 e 6 meses (incluído)", "en": "Between 0 and 6 months (included)"}},
+            "6_12M" : {"name" : {"en" : "]6,12] months", "pt-br" : "]6,12] meses"},
+                       "description" : {"pt-br" : "Entre 6 e 12 meses (incluído)", "en": "Between 6 and 12 months (included)"}},
+            "12M_" : {"name" : {"en" : "> 12 months", "pt-br" : "> 12 meses"},
+                      "description" : {"pt-br" : "Depois de 12 meses", "en": "After 12 months"}},
+            "N" : {"name" : {"en" : "Not done", "pt-br" : "Não foi feita"},
+                   "description" : {"pt-br" : "Não foi feita"}, "en": "Surgery was not performed"},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se foi feita cirurgia", "en": "It is not known whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Donator_Ac]_v2" : {
+        "name": {"en" : "Accessory Donor","pt-br" : "Doador Acessório"}, 
+        "description" : {"pt-br" : "Uso do nervo acessório como doador em transferência nervosa", "en": "Use of the accessory nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Donator_Ul]_v2" : {
+        "name": {"en" : "Ulnar Donor","pt-br" : "Doador Ulnar"}, 
+        "description" : {"pt-br" : "Uso do nervo ulnar como doador em transferência nervosa", "en": "Use of the ulnar nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Donator_I]_v2" : {
+        "name": {"en" : "Intercostal Donor","pt-br" : "Doador Intercostal"}, 
+        "description" : {"pt-br" : "Uso do nervo intercostal como doador em transferência nervosa", "en": "Use of the intercostal nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Donator_Ph]_v2" : {
+        "name": {"en" : "Phrenic Donor","pt-br" : "Doador Frênico"}, 
+        "description" : {"pt-br" : "Uso do nervo frênico como doador em transferência nervosa", "en": "Use of the phrenic nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Receptor_Ss]_v2" : {
+        "name": {"en" : "Suprascapular Receptor","pt-br" : "Receptor Supraescapular"}, 
+        "description" : {"pt-br" : "Uso do nervo supraescapular como receptor em transferência nervosa", "en": "Use of the suprascapular nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Receptor_Mc]_v2" : {
+        "name": {"en" : "Musculocutaneous Receptor","pt-br" : "Receptor Musculocutâneo"}, 
+        "description" : {"pt-br" : "Uso do nervo musculocutâneo como receptor em transferência nervosa", "en": "Use of the musculocutaneous nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+    "mulTransfSite[Receptor_Ax]_v2" : {
+        "name": {"en" : "Axillary Receiver","pt-br" : "Receptor Axilar"}, 
+        "description" : {"pt-br" : "Uso do nervo axilar como receptor em transferência nervosa", "en": "Use of the axillary nerve as a donor in nerve transfer"},
+        "values" : {
+            "Y" : {"name" : {"en" : "Yes", "pt-br" : "Sim"},
+                   "description" : {"pt-br" : "Utilizou o procedimento em questão em uma cirurgia de transferência", "en": "The procedured was used in a transfer surgery"}},
+            "N" : {"name" : {"en" : "No", "pt-br" : "Não"},
+                   "description" : {"pt-br" : "Não utilizou o procedimento em questão", "en": "The procedure was not used"}},
+            "NINA" : {"name" : {"en" : "NINA", "pt-br" : "NINA"},
+                      "description" : {"pt-br" : "Não é sabido se utilizou o procedimento em questão, ou se foi feita cirurgia", "en": "It is not known whether the procedure was used, or whether surgery was performed"}}
+        }
+    },
+
+    "lstPexMuscstrength_ShoulderAbduc" : {
+       "name": {"en" : "Shoulder Abduction","pt-br" : "Abdução do Ombro"}, 
+       "description" : {"pt-br" : "Recuperação de abdução do ombro", "en": "Shoulder abduction recovery"},
+       "values" : {
+              "0" : {"name" : {"en" : "Unsatisfactory", "pt-br" : "Insatisfatória"},
+                     "description" : {"pt-br" : "Recuperação de abdução do ombro insatisfatória", "en": "Unsatisfactory shoulder abduction recovery"}},
+              "1" : {"name" : {"en" : "Satisfactory", "pt-br" : "Satisfatória"},
+              "description" : {"pt-br" : "Recuperação de abdução do ombro satisfatória", "en": "Unsatisfactory shoulder abduction recovery"}}
+       }
+    },
+    "lstPexMuscstrength_ShoulderExrot" : {
+       "name": {"en" : "External Rotation of the Shoulder","pt-br" : "Rotação Externa do Ombro"}, 
+       "description" : {"pt-br" : "Recuperação de rotação externa do ombro", "en": "Shoulder external rotation recovery"},
+       "values" : {
+              "0" : {"name" : {"en" : "Unsatisfactory", "pt-br" : "Insatisfatória"},
+                     "description" : {"pt-br" : "Recuperação de rotação externa do ombro insatisfatória", "en": "Unsatisfactory shoulder external rotation recovery"}},
+              "1" : {"name" : {"en" : "Satisfactory", "pt-br" : "Satisfatória"},
+              "description" : {"pt-br" : "Recuperação de rotação externa do ombro satisfatória", "en": "Unsatisfactory shoulder external rotation recovery"}}
+       }
+    },
+    "lstPexMuscstrength_ElbowFlex" : {
+       "name": {"en" : "Elbow Flexion","pt-br" : "Flexão do Cotovelo"}, 
+       "description" : {"pt-br" : "Recuperação de flexão do cotovelo", "en": "Elbow flexion recovery"},
+       "values" : {
+              "0" : {"name" : {"en" : "Unsatisfactory", "pt-br" : "Insatisfatória"},
+                     "description" : {"pt-br" : "Recuperação de flexão do cotovelo insatisfatória", "en": "Unsatisfactory elbow flexion recovery"}},
+              "1" : {"name" : {"en" : "Satisfactory", "pt-br" : "Satisfatória"},
+              "description" : {"pt-br" : "Recuperação de flexão do cotovelo satisfatória", "en": "Unsatisfactory elbow flexion recovery"}}
+       }
+    },
+    "yonPexPain" : {
+       "name": {"en" : "Pain","pt-br" : "Dor"}, 
+       "description" : {"pt-br" : "Recuperação de dor", "en": "Pain recovery"},
+       "values" : {
+              "0" : {"name" : {"en" : "Unsatisfactory", "pt-br" : "Insatisfatória"},
+                     "description" : {"pt-br" : "Recuperação de dor insatisfatória", "en": "Unsatisfactory pain recovery"}},
+              "1" : {"name" : {"en" : "Satisfactory", "pt-br" : "Satisfatória"},
+              "description" : {"pt-br" : "Recuperação de dor satisfatória", "en": "Unsatisfactory pain recovery"}}
+       }
+    }
+}

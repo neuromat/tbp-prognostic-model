@@ -1,0 +1,31 @@
+{
+    "feature_importance_vs_threshold_accuracy" : {
+        "title" : {"en": "Importance Threshold X Accuracy", "pt-br": "Limiar de Importância X Acurácia"},
+        "xlabel" : {"en": "Feature Importance Threshold", "pt-br": "Limiar de Importância de Atributo"},
+        "ylabel" : {"en": "Accuracy (1 - OOB error)", "pt-br": "Acurácia (1 - Erro OOB)"}        
+    },
+    "feature_importance" : {
+        "title" : {"en": "Features' Importance", "pt-br": "Importância dos Atributos"},
+        "xlabel" : {"en": "Feature", "pt-br": "Atributo"},
+        "ylabel" : {"en": "Importance", "pt-br": "Importância"},
+        "selected_features" : {"en": " - Selected Features", "pt-br": " - Atributos Selecionados"},
+        "all_features" : {"en": " - All Features", "pt-br": " - Todos Atributos"}
+    },
+    "feature_contributions" : {
+        "title" : {"en": "Feature Contribution by Value", "pt-br": "Contribuição do Atributo por Valor"},
+        "xlabel" : {"en": "Feature Contribution", "pt-br": "Contribuição"},
+        "ylabel" : {"en": "Values of Feature", "pt-br": "Valores do Atributo"},
+        "xlabel_histogram" : {"en": "Values of Feature", "pt-br": "Valores do Atributo"},
+        "ylabel_histogram" : {"en": "Number of instances", "pt-br": "Número de instâncias"},
+        "legend" : {"positive_contrib_success" : {"en": "Positive Contrib. / Satisfactory", "pt-br": "Contrib. Positiva / Satisfatória"},
+            "positive_contrib_unsuccess" : {"en": "Positive Contrib. / Unsatisfactory", "pt-br": "Contrib. Positiva / Insatisfatória"},
+            "negative_contrib_success" : {"en": "Negative Contrib. / Satisfactory", "pt-br": "Contrib. Negativa / Satisfatória"},
+            "negative_contrib_unsuccess" : {"en": "Negative Contrib. / Unsatisfactory", "pt-br": "Contrib. Negativa / Insatisfatória"},
+            "class" : {"en": "Class", "pt-br": "Classe"},
+            "success" : {"en": "Satisfactory", "pt-br": "Satisfatória"},
+            "unsuccess" : {"en": "Unsatisfactory", "pt-br": "Insatisfatória"},
+            "positive_contrib" : {"en": "Positive\nContribution", "pt-br": "Contribuição\nPositiva"},
+            "negative_contrib" : {"en": "Negative\nContribution", "pt-br": "Contribuição\nNegativa"}}
+    }        
+}
+

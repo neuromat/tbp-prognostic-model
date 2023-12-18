@@ -21,7 +21,7 @@ Em cada um dos grupos, os resultados estão organizados em 3 pastas:
 - "indc", com os resultados obtidos para os pacientes do Instituto de Neurologia Deolindo Couto (INDC)
 - "all",  com os resultados obtidos para os pacientes do INTO e INDC juntos
 
-Além disso, dentro de cada uma das pastas citadas acima, os resultados ficar divididos por tipo de alvo de recuperação de LTPB. São quatros os alvos:
+Finalmente, dentro de cada uma das pastas citadas acima, os resultados ficam divididos por modelo, sendo que foi criado um modelo para cada tipo de alvo de recuperação de LTPB estudado. São quatros os alvos:
 - "lstPexMuscstrength_ElbowFlex" - flexão do cotovelo
 - "lstPexMuscstrength_ShoulderAbduc" - abdução do ombro
 - "lstPexMuscstrength_ShoulderExrot" - rotação externa do ombro
